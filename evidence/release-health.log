@@ -2,11 +2,11 @@
   "synthetic": true,
   "data_mode": "synthetic",
   "result": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
     "interpreter": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
-    "project": "/tmp/moonshot release with spaces umrijn6d/clean extraction/moonshot_profit_research",
-    "database": "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.sqlite",
+    "project": "/tmp/moonshot release with spaces s6hmy6g3/clean extraction/moonshot_profit_research",
+    "database": "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.sqlite",
     "synthetic": true,
     "modules": {
       "radar": true,
@@ -18,7 +18,7 @@
       "at": 1700005042.0,
       "detail": "{\"observations\":7,\"period\":\"development\"}"
     },
-    "data_age_seconds": 93570876.65397716,
+    "data_age_seconds": 93572526.35583043,
     "last_error": null,
     "note": "Sem ciclos: inicie run. Zero sinais: veja moonshot-quality e decisões; zero operações pode ser abstenção correta."
   }

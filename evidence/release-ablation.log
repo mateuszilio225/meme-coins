@@ -1,6 +1,6 @@
 {
   "category": "historical_development_fixed_signal_ablation",
-  "source_snapshot": "741bd41e9e5b03932265e42adb8b0f77ca91daa6087b023c14898f5de07c354a",
+  "source_snapshot": "1a64e914504c190f04804cad5c987e9b4942eb3e78edf57bb79a51586bb88d6f",
   "variants": [
     {
       "name": "reference",
@@ -15,7 +15,7 @@
         "synthetic": true,
         "data_category": "historical_development_fixed_signal_ablation",
         "period": "development",
-        "protocol": "f424df6e680184e06d55c9040740ce48ed5721201506b358e4deba5aa9afd7ea",
+        "protocol": "1df7152b96a3ecbd5222c75f63985fa90962305dc6f92a9c653d622a9e09e1cd",
         "currency_note": "USD contábil; BRL ao FX inicial, não FX corrente.",
         "capital_note": "Carteiras independentes são contrafactuais, nunca somar seus resultados. main é um portfólio único de R$400 por cenário.",
         "wallets": [
@@ -267,7 +267,7 @@
         "synthetic": true,
         "data_category": "historical_development_fixed_signal_ablation",
         "period": "development",
-        "protocol": "38e95997f5cede9880e5cf816b01a3986653cfcfa54bfe6fadeef7ab3a35a846",
+        "protocol": "292a4842c7b79e58f13b732f8e76c8f824f4a07b3c3c6024643e7180dbcaf80c",
         "currency_note": "USD contábil; BRL ao FX inicial, não FX corrente.",
         "capital_note": "Carteiras independentes são contrafactuais, nunca somar seus resultados. main é um portfólio único de R$400 por cenário.",
         "wallets": [
@@ -519,7 +519,7 @@
         "synthetic": true,
         "data_category": "historical_development_fixed_signal_ablation",
         "period": "development",
-        "protocol": "667588d6a05e423193304c8fb7e65d65986918b7d323f8178ed9c02442e87001",
+        "protocol": "fcb57aa4e264975f09bb519202261048cd7a9c6af77c5b8069313fff54321fa7",
         "currency_note": "USD contábil; BRL ao FX inicial, não FX corrente.",
         "capital_note": "Carteiras independentes são contrafactuais, nunca somar seus resultados. main é um portfólio único de R$400 por cenário.",
         "wallets": [

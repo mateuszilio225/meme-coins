@@ -2,7 +2,7 @@
 
 Novo sistema Python/SQLite de pesquisa prospectiva sobre tokens Solana, com Moonshot Radar A/B/C, baselines, carteiras condicionais e portfólio único de R$400 fictícios. Não envia transações.
 
-**Comece por [LEIA_PRIMEIRO.md](LEIA_PRIMEIRO.md).** Python 3.11+, sem dependências de execução externas. Versão nova 0.1.0, sem continuidade alegada de código 3.5 não recebido.
+**Comece por [LEIA_PRIMEIRO.md](LEIA_PRIMEIRO.md).** Python 3.11+, sem dependências de execução externas. Versão nova 0.1.1, sem continuidade alegada de código 3.5 não recebido.
 
 - [Pesquisa e prioridades](docs/RESEARCH.md)
 - [Contabilidade e viabilidade](docs/ECONOMICS.md)

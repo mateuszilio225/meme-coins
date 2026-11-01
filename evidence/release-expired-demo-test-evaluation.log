@@ -1,6 +1,6 @@
 {
   "period": "test",
-  "protocol": "a1ca5c2046ec2bfc994a6a1a6167fb213e2661e79a1e040cff2f5bf28775e11e",
+  "protocol": "e9180f54b43d9aee17c43257275e9809584c3219fe80ee561a7ac9e5c58e8350",
   "synthetic": true,
   "coverage": 0.0,
   "metric": "net_portfolio_brl_with_recurring_costs",

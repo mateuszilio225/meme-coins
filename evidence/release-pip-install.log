@@ -4,9 +4,9 @@ Processing ./clean extraction/moonshot_profit_research
 Building wheels for collected packages: moonshot-profit-research
   Building wheel for moonshot-profit-research (pyproject.toml): started
   Building wheel for moonshot-profit-research (pyproject.toml): finished with status 'done'
-  Created wheel for moonshot-profit-research: filename=moonshot_profit_research-0.1.0-py3-none-any.whl size=37682 sha256=5e442007bcb3b42ffbb00f9411471d7f0eb72a3358af8b3bb91ec8ff929f4927
-  Stored in directory: /tmp/pip-ephem-wheel-cache-0nr39prh/wheels/66/ae/3c/5c8b09e6f858b9126f5b216e9f40260d706cd51662a0b0eecb
+  Created wheel for moonshot-profit-research: filename=moonshot_profit_research-0.1.1-py3-none-any.whl size=38040 sha256=65e9803812ed288c0b7051c724a22a0d45f05990a5d6a52ed84970224bad64f6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ygqz0sjz/wheels/22/e6/fb/3430f50e8655788441d3eae3b39ebcbfa91066ecb8043c748d
 Successfully built moonshot-profit-research
 Installing collected packages: moonshot-profit-research
-Successfully installed moonshot-profit-research-0.1.0
+Successfully installed moonshot-profit-research-0.1.1
 WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.

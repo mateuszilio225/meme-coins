@@ -51,6 +51,15 @@ test_nan_raw_invalid (test_system.HTTPTests.test_nan_raw_invalid) ... ok
 test_unexpected_transaction_not_retained (test_system.HTTPTests.test_unexpected_transaction_not_retained) ... ok
 test_quote_list_rejected (test_system.MalformedAPITests.test_quote_list_rejected) ... ok
 test_rpc_list_rejected (test_system.MalformedAPITests.test_rpc_list_rejected) ... ok
+test_documented_aliases_without_orderby (test_system.PTAXRegression.test_documented_aliases_without_orderby) ... ok
+test_empty_does_not_invent_fx (test_system.PTAXRegression.test_empty_does_not_invent_fx) ... ok
+test_future_fx_rejected (test_system.PTAXRegression.test_future_fx_rejected) ... ok
+test_invalid_latest_not_silently_ignored (test_system.PTAXRegression.test_invalid_latest_not_silently_ignored) ... ok
+test_invalid_timestamp_rejected (test_system.PTAXRegression.test_invalid_timestamp_rejected) ... ok
+test_latest_selected_locally_unordered (test_system.PTAXRegression.test_latest_selected_locally_unordered) ... ok
+test_naive_bcb_timestamp_uses_brasilia (test_system.PTAXRegression.test_naive_bcb_timestamp_uses_brasilia) ... ok
+test_stale_fx_rejected (test_system.PTAXRegression.test_stale_fx_rejected) ... ok
+test_unresolved_pagination_rejected (test_system.PTAXRegression.test_unresolved_pagination_rejected) ... ok
 test_backup_and_no_overwrite (test_system.Persistence.test_backup_and_no_overwrite) ... ok
 test_duplicate_observation (test_system.Persistence.test_duplicate_observation) ... ok
 test_failed_migration_rolls_back (test_system.Persistence.test_failed_migration_rolls_back) ... ok
@@ -92,6 +101,6 @@ test_token_split_frozen (test_system.Temporal.test_token_split_frozen) ... ok
 test_zero_liquidity_distinct (test_system.Temporal.test_zero_liquidity_distinct) ... ok
 
 ----------------------------------------------------------------------
-Ran 92 tests in 2.975s
+Ran 101 tests in 3.015s
 
 OK

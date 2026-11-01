@@ -54,7 +54,7 @@ def main():
             result=subprocess.run([sys.executable,'-m','meme_research','--version'],cwd=base,env=package_env,capture_output=True,text=True)
             if result.returncode: raise RuntimeError('Installed package import failed')
             commands.append({'name':'installed-package-import','exit_code':result.returncode})
-        report={'release':'0.1.0','python':sys.version,'platform':sys.platform,'clean_extraction_test_exit':tests.returncode,
+        report={'release':__import__('tomllib').loads((ROOT/'pyproject.toml').read_text())['project']['version'],'python':sys.version,'platform':sys.platform,'clean_extraction_test_exit':tests.returncode,
                 'test_summary':(tests.stdout+tests.stderr).splitlines()[-5:], 'cli_commands':commands,'pip_target_install_exit':package.returncode,
                 'validated_windows':False,'validated_live_market_collection':False,'economic_edge_proven':False,
                 'note':'Arquivos da demo só em diretório temporário; ZIP não inclui banco sintético disfarçado de real.'}

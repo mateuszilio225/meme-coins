@@ -10,7 +10,7 @@
     "synthetic": true,
     "data_category": "synthetic",
     "period": "development",
-    "protocol": "a1ca5c2046ec2bfc994a6a1a6167fb213e2661e79a1e040cff2f5bf28775e11e",
+    "protocol": "e9180f54b43d9aee17c43257275e9809584c3219fe80ee561a7ac9e5c58e8350",
     "currency_note": "USD contábil; BRL ao FX inicial, não FX corrente.",
     "capital_note": "Carteiras independentes são contrafactuais, nunca somar seus resultados. main é um portfólio único de R$400 por cenário.",
     "wallets": [
@@ -2492,6 +2492,6 @@
       }
     ]
   },
-  "config_path": "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
-  "database_path": "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.sqlite"
+  "config_path": "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
+  "database_path": "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.sqlite"
 }

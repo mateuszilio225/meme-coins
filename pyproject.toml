@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "moonshot-profit-research"
-version = "0.1.0"
+version = "0.1.1"
 description = "Prospective Solana market research and conditional paper trading; no transactions"
 requires-python = ">=3.11"
 dependencies = []

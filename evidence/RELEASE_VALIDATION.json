@@ -1,12 +1,12 @@
 {
-  "release": "0.1.0",
+  "release": "0.1.1",
   "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
   "platform": "linux",
   "clean_extraction_test_exit": 0,
   "test_summary": [
     "",
     "----------------------------------------------------------------------",
-    "Ran 92 tests in 2.975s",
+    "Ran 101 tests in 3.015s",
     "",
     "OK"
   ],
@@ -24,7 +24,7 @@
       "arguments": [
         "demo",
         "--output",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.sqlite"
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.sqlite"
       ],
       "exit_code": 0,
       "expected": 0
@@ -33,7 +33,7 @@
       "name": "health",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "health"
       ],
       "exit_code": 0,
@@ -43,7 +43,7 @@
       "name": "audit",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "audit"
       ],
       "exit_code": 0,
@@ -53,7 +53,7 @@
       "name": "watch",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "watch"
       ],
       "exit_code": 0,
@@ -63,7 +63,7 @@
       "name": "moonshot",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot"
       ],
       "exit_code": 0,
@@ -73,7 +73,7 @@
       "name": "moonshot-alerts",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-alerts"
       ],
       "exit_code": 0,
@@ -83,7 +83,7 @@
       "name": "moonshot-trades",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-trades"
       ],
       "exit_code": 0,
@@ -93,7 +93,7 @@
       "name": "moonshot-profitability",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-profitability"
       ],
       "exit_code": 0,
@@ -103,7 +103,7 @@
       "name": "moonshot-forensics",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-forensics"
       ],
       "exit_code": 0,
@@ -113,7 +113,7 @@
       "name": "moonshot-missed",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-missed"
       ],
       "exit_code": 0,
@@ -123,7 +123,7 @@
       "name": "moonshot-quality",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-quality"
       ],
       "exit_code": 0,
@@ -133,7 +133,7 @@
       "name": "moonshot-compare",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-compare"
       ],
       "exit_code": 0,
@@ -143,7 +143,7 @@
       "name": "moonshot-scores",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-scores"
       ],
       "exit_code": 0,
@@ -153,7 +153,7 @@
       "name": "economics",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "economics"
       ],
       "exit_code": 0,
@@ -163,7 +163,7 @@
       "name": "expired-demo-test-evaluation",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "evaluate",
         "--period",
         "test"
@@ -175,7 +175,7 @@
       "name": "synthetic-real-collector-protected",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "run",
         "--once"
       ],
@@ -186,10 +186,10 @@
       "name": "ablation",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "ablate",
         "--output",
-        "/tmp/moonshot release with spaces umrijn6d/ablations clean"
+        "/tmp/moonshot release with spaces s6hmy6g3/ablations clean"
       ],
       "exit_code": 0,
       "expected": 0
@@ -198,10 +198,10 @@
       "name": "backup",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "backup",
         "--output",
-        "/tmp/moonshot release with spaces umrijn6d/backup.sqlite"
+        "/tmp/moonshot release with spaces s6hmy6g3/backup.sqlite"
       ],
       "exit_code": 0,
       "expected": 0
@@ -210,7 +210,7 @@
       "name": "readonly-repeat",
       "arguments": [
         "--config",
-        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "/tmp/moonshot release with spaces s6hmy6g3/offline demo with spaces.toml",
         "moonshot-profitability"
       ],
       "exit_code": 0,

@@ -1,4 +1,4 @@
-# Moonshot Profit Research 0.1.0
+# Moonshot Profit Research 0.1.1
 
 **Projeto novo de pesquisa e dinheiro fictício. Não é a antiga versão 3.5. Não há vantagem econômica comprovada.** Não conecta carteira, não assina e não envia transações. Preços e quotes não garantem execução. Nenhum resultado da demo comprova lucro.
 
@@ -90,3 +90,12 @@ py -3 -m unittest discover -s tests -v
 ```
 
 Testado nesta entrega em Linux/Python 3.12.14. **Windows e operações em APIs com chave não foram testados.** Há coleta e simulação implementadas, mas integração pública ponta a ponta ficou bloqueada pela rede do ambiente de construção. Não alegamos lucro, cobertura total, segurança dos tokens ou execução real. Consulte a matriz completa em [VALIDATION](docs/VALIDATION.md).
+
+
+## Se init --ptax retornar HTTP 400
+
+A versão 0.1.1 utiliza os nomes completos dos aliases do BCB, remove ordenação/limite no servidor e seleciona localmente a cotação mais recente do período. É um ajuste de compatibilidade; a confirmação do erro 400 ao vivo ficou pendente na nuvem bloqueada.
+
+Atualize o código sem apagar `data`, seu `config.toml` ou bancos antigos. Depois confirme `py -3 -m meme_research --version` e tente `py -3 -m meme_research init --ptax` novamente somente se não houve inicialização bem-sucedida. Não repita init para reiniciar capital de protocolo já registrado.
+
+Se persistir, execute `py -3 DIAGNOSTICAR_PTAX.py` e informe a saída. O diagnóstico consulta apenas uma URL pública de PTAX, sem ler seu banco, TOML ou chaves. Mostra o relógio UTC, a URL, HTTP e uma mensagem estruturada do serviço, quando disponível. Não invente cotação e não desative TLS.

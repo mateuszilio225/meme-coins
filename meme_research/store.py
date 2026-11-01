@@ -2,6 +2,7 @@ from __future__ import annotations
 import contextlib, os, sqlite3, time
 from pathlib import Path
 from .config import canonical, digest, D, calendar
+from . import __version__
 
 SCHEMA = '''
 CREATE TABLE IF NOT EXISTS metadata(key TEXT PRIMARY KEY, value TEXT NOT NULL);
@@ -96,5 +97,5 @@ def register(db,c,at):
     if db.execute('SELECT 1 FROM protocols').fetchone(): raise ValueError('Protocolo já registrado; use outro banco para novas regras, preserve o anterior.')
     h=digest(c)
     db.execute('INSERT INTO protocols VALUES(?,?,?,?,?)',(h,at,canonical(c),canonical(calendar(c,at)),int(r['synthetic'])))
-    event(db,at,'registered',{'protocol':h,'version':'0.1.0','metric':'net_portfolio_brl','max_primary_hypotheses':3})
+    event(db,at,'registered',{'protocol':h,'version':__version__,'metric':'net_portfolio_brl','max_primary_hypotheses':3})
     return h

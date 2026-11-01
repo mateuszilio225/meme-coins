@@ -3,6 +3,7 @@ import base64, datetime as dt, email.utils, hashlib, json, math, os, random, re,
 import urllib.error, urllib.parse, urllib.request
 from decimal import Decimal
 from .config import canonical, digest, D
+from . import __version__
 from .store import event
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -34,7 +35,7 @@ class HTTP:
                             (provider,urllib.parse.urlsplit(url).path,now,now,'deferred'))
             raise DataUnavailable('deferred')
         self.db.execute('INSERT OR REPLACE INTO api_state VALUES(?,?,?,?,?)',(provider,now+1,failures,start,calls+1))
-        hdr={'Accept':'application/json','User-Agent':'MoonshotResearch/0.1.0'}
+        hdr={'Accept':'application/json','User-Agent':'MoonshotResearch/'+__version__}
         hdr.update(headers or {})
         body=canonical(payload).encode() if payload is not None else None
         if body: hdr['Content-Type']='application/json'
@@ -177,14 +178,40 @@ class Sources:
         buy,_,_=self.quote(usdc,mint,amount)
         return self.quote(mint,usdc,buy['outAmount'])
 
+    @staticmethod
+    def fx_url(now=None):
+        now=now or dt.datetime.now(dt.timezone.utc)
+        start=(now-dt.timedelta(days=10)).strftime('%m-%d-%Y')
+        end=now.strftime('%m-%d-%Y')
+        # Use the aliases from the BCB service contract, not abbreviated aliases.
+        # Request the bounded date interval and sort locally; no server $orderby/$top.
+        endpoint="https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)"
+        query=urllib.parse.urlencode({'@dataInicial':"'"+start+"'",'@dataFinalCotacao':"'"+end+"'",'$format':'json'})
+        return endpoint+'?'+query
+
     def fx(self):
-        now=dt.datetime.now(dt.timezone.utc); start=(now-dt.timedelta(days=10)).strftime('%m-%d-%Y'); end=now.strftime('%m-%d-%Y')
-        url="https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@a,dataFinalCotacao=@b)?"
-        url+=urllib.parse.urlencode({'@a':"'"+start+"'",'@b':"'"+end+"'",'$format':'json','$orderby':'dataHoraCotacao desc','$top':1})
-        data,received,_=self.http.get('fx',url,ttl=3600)
-        values=data.get('value') if isinstance(data,dict) else None
-        if not values: raise DataUnavailable('fx_empty')
-        value=values[0]; rate=number(value.get('cotacaoVenda'),True)
-        if not rate: raise DataUnavailable('fx_schema')
-        return {'fx_brl_per_usd':rate,'fx_source':'BCB PTAX cotacaoVenda '+str(value.get('dataHoraCotacao')),
+        now=dt.datetime.now(dt.timezone.utc)
+        data,received,_=self.http.get('fx',self.fx_url(now),ttl=3600)
+        if not isinstance(data,dict) or not isinstance(data.get('value'),list):
+            raise DataUnavailable('fx_schema')
+        if data.get('@odata.nextLink') or data.get('odata.nextLink'):
+            raise DataUnavailable('fx_pagination_unresolved')
+        if not data['value']: raise DataUnavailable('fx_empty')
+        candidates=[]
+        for value in data['value']:
+            if not isinstance(value,dict): raise DataUnavailable('fx_schema')
+            rate=number(value.get('cotacaoVenda'),True)
+            stamp=value.get('dataHoraCotacao')
+            try:
+                published=dt.datetime.fromisoformat(stamp)
+                if published.tzinfo is None:
+                    published=published.replace(tzinfo=dt.timezone(dt.timedelta(hours=-3)))
+                published=published.astimezone(dt.timezone.utc)
+            except (TypeError,ValueError): raise DataUnavailable('fx_timestamp_invalid') from None
+            if not rate: raise DataUnavailable('fx_schema')
+            if published.timestamp()>received: raise DataUnavailable('fx_timestamp_future_check_pc_clock')
+            if published < now-dt.timedelta(days=11): raise DataUnavailable('fx_stale')
+            candidates.append((published,rate,stamp))
+        _,rate,stamp=max(candidates,key=lambda item:item[0])
+        return {'fx_brl_per_usd':rate,'fx_source':'BCB PTAX cotacaoVenda '+stamp,
                 'fx_available_at':received,'note':'disponível localmente no recebimento; não é preço intradiário executável'}

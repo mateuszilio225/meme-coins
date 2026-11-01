@@ -452,3 +452,41 @@ class MalformedAPITests(Base):
             def get(self,*a,**k): return [],START,'network'
         with patch.dict(os.environ,{'JUPITER_API_KEY':'x'}):
             self.assertRaises(DataUnavailable,Sources(self.db,Fake()).quote,'a','b',1)
+
+class PTAXRegression(unittest.TestCase):
+    def test_documented_aliases_without_orderby(self):
+        import datetime as dt, urllib.parse
+        u=urllib.parse.urlsplit(Sources.fx_url(dt.datetime(2026,11,1,tzinfo=dt.timezone.utc)))
+        self.assertIn('dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao',u.path)
+        q=urllib.parse.parse_qs(u.query)
+        self.assertEqual(q['@dataInicial'],["'10-22-2026'"])
+        self.assertEqual(q['@dataFinalCotacao'],["'11-01-2026'"])
+        self.assertNotIn('$orderby',q); self.assertNotIn('$top',q)
+    def call_fx(self,values,**extra):
+        import datetime as dt
+        now=dt.datetime.now(dt.timezone.utc)
+        class Fake:
+            def get(self,*a,**k): return dict(value=values,**extra),now.timestamp(),'network'
+        return Sources(None,Fake()).fx()
+    def stamp(self,days=1):
+        import datetime as dt
+        return (dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=days)).isoformat()
+    def test_latest_selected_locally_unordered(self):
+        result=self.call_fx([{'cotacaoVenda':'5.1','dataHoraCotacao':self.stamp(2)},{'cotacaoVenda':'5.2','dataHoraCotacao':self.stamp(1)},{'cotacaoVenda':'5','dataHoraCotacao':self.stamp(3)}])
+        self.assertEqual(result['fx_brl_per_usd'],'5.2')
+    def test_empty_does_not_invent_fx(self):
+        self.assertRaises(DataUnavailable,self.call_fx,[])
+    def test_invalid_latest_not_silently_ignored(self):
+        self.assertRaises(DataUnavailable,self.call_fx,[{'cotacaoVenda':None,'dataHoraCotacao':self.stamp()}])
+    def test_future_fx_rejected(self):
+        self.assertRaises(DataUnavailable,self.call_fx,[{'cotacaoVenda':'5','dataHoraCotacao':self.stamp(-1)}])
+    def test_invalid_timestamp_rejected(self):
+        self.assertRaises(DataUnavailable,self.call_fx,[{'cotacaoVenda':'5','dataHoraCotacao':'bad'}])
+    def test_stale_fx_rejected(self):
+        self.assertRaises(DataUnavailable,self.call_fx,[{'cotacaoVenda':'5','dataHoraCotacao':self.stamp(20)}])
+    def test_unresolved_pagination_rejected(self):
+        self.assertRaises(DataUnavailable,self.call_fx,[{'cotacaoVenda':'5','dataHoraCotacao':self.stamp()}],**{'@odata.nextLink':'next'})
+    def test_naive_bcb_timestamp_uses_brasilia(self):
+        import datetime as dt
+        stamp=(dt.datetime.now(dt.timezone(dt.timedelta(hours=-3)))-dt.timedelta(days=1)).replace(tzinfo=None).isoformat(' ')
+        self.assertEqual(self.call_fx([{'cotacaoVenda':'5','dataHoraCotacao':stamp}])['fx_brl_per_usd'],'5')
