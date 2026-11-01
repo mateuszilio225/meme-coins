@@ -1,0 +1,93 @@
+# New project, not a continuation/reproduction of the unavailable phase 3.5.
+[research]
+database = "data/research.sqlite3"
+synthetic = false
+capital_brl = "400"
+# Required before init: reference available no later than registration.
+fx_brl_per_usd = "0"
+fx_source = ""
+fx_available_at = 0
+seed = 3501
+cycle_seconds = 60
+max_tokens_per_cycle = 12
+max_visual_alerts = 10
+rpc_enabled = false
+quotes_enabled = false
+# Costs below are explicit uncalibrated assumptions, not estimates from trading.
+monthly_infrastructure_brl = "0"
+monthly_data_brl = "0"
+monthly_costs_confirmed = false
+
+[policy]
+position_fraction = "0.10"
+exposure_fraction = "0.30"
+max_positions = 3
+reserve_fraction = "0.10"
+min_notional_usd = "1"
+max_break_even = "0.08"
+min_liquidity_usd = "10000"
+max_capacity_fraction = "0.005"
+max_pair_age_minutes = 120
+min_observations = 3
+min_spacing_seconds = 30
+history_seconds = 900
+max_gap_seconds = 180
+max_snapshot_age_seconds = 120
+max_unchanged_seconds = 600
+score_threshold = 60
+require_provider_timestamp = false
+# Unique portfolio abstains without contemporaneous exact-size indicative exit quote.
+portfolio_require_quote = true
+entry_mode = "immediate"
+exit_mode = "fixed"
+entry_timeout_seconds = 180
+exit_timeout_seconds = 600
+max_holding_seconds = 3600
+stop_fraction = "0.40"
+take_profit_multiple = "2"
+partial_fraction = "0.50"
+trailing_fraction = "0.25"
+liquidity_exit_retention = "0.25"
+
+[calendar]
+development_days = 7
+embargo_days = 1
+validation_days = 20
+test_days = 20
+min_closed_mints = 100
+min_days = 20
+bootstrap_repetitions = 30000
+
+[scenarios.optimistic]
+fee_bps = "25"
+spread_bps = "10"
+slippage_bps = "50"
+network_usd = "0.01"
+priority_usd = "0"
+liquidity_multiplier = "1"
+impact_multiplier = "1"
+latency_seconds = 1
+# Deterministic stress only: no inferred probability of an on-chain failure.
+failure_every_n = 0
+
+[scenarios.base]
+fee_bps = "30"
+spread_bps = "20"
+slippage_bps = "100"
+network_usd = "0.02"
+priority_usd = "0"
+liquidity_multiplier = "1"
+impact_multiplier = "1"
+latency_seconds = 2
+failure_every_n = 0
+
+[scenarios.adverse]
+fee_bps = "100"
+spread_bps = "60"
+slippage_bps = "300"
+network_usd = "0.05"
+priority_usd = "0.01"
+liquidity_multiplier = "0.5"
+impact_multiplier = "2"
+latency_seconds = 10
+failure_every_n = 0

@@ -1,0 +1,86 @@
+{
+  "synthetic": true,
+  "data_mode": "synthetic",
+  "result": [
+    {
+      "id": 49,
+      "decision": 493,
+      "mint": "SYNTHETIC_2",
+      "model": "first",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 48,
+      "decision": 484,
+      "mint": "SYNTHETIC_0",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 47,
+      "decision": 483,
+      "mint": "SYNTHETIC_6",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 46,
+      "decision": 472,
+      "mint": "SYNTHETIC_2",
+      "model": "volume",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 45,
+      "decision": 467,
+      "mint": "SYNTHETIC_4",
+      "model": "random",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 44,
+      "decision": 451,
+      "mint": "SYNTHETIC_2",
+      "model": "B",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 43,
+      "decision": 441,
+      "mint": "SYNTHETIC_6",
+      "model": "matched",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 42,
+      "decision": 434,
+      "mint": "SYNTHETIC_6",
+      "model": "first",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 41,
+      "decision": 425,
+      "mint": "SYNTHETIC_4",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 40,
+      "decision": 419,
+      "mint": "SYNTHETIC_5",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000362.0
+    }
+  ]
+}

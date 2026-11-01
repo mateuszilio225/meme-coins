@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-11-01T23:30:57.247331+00:00",
+  "results": [
+    {
+      "source": "dex_profiles",
+      "state": "unavailable",
+      "category": "transport"
+    },
+    {
+      "source": "ptax",
+      "state": "unavailable",
+      "category": "transport"
+    }
+  ],
+  "attempts": [
+    {
+      "provider": "dex_profiles",
+      "endpoint": "/token-profiles/latest/v1",
+      "requested": 1793575857.2268598,
+      "received": 1793575857.2393718,
+      "state": "transport",
+      "status": null
+    },
+    {
+      "provider": "fx",
+      "endpoint": "/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@a,dataFinalCotacao=@b)",
+      "requested": 1793575857.2396667,
+      "received": 1793575857.2470133,
+      "state": "transport",
+      "status": null
+    }
+  ],
+  "collected_market_observations": 0,
+  "no_network_fees_charged": true
+}

@@ -1,0 +1,2490 @@
+{
+  "synthetic": true,
+  "data_mode": "synthetic",
+  "result": {
+    "synthetic": true,
+    "data_category": "synthetic",
+    "period": "development",
+    "protocol": "a1ca5c2046ec2bfc994a6a1a6167fb213e2661e79a1e040cff2f5bf28775e11e",
+    "currency_note": "USD contábil; BRL ao FX inicial, não FX corrente.",
+    "capital_note": "Carteiras independentes são contrafactuais, nunca somar seus resultados. main é um portfólio único de R$400 por cenário.",
+    "wallets": [
+      {
+        "wallet": "development:A:adverse",
+        "strategy": "A",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:A:base",
+        "strategy": "A",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "86.64912110877364734511845056",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "6.64912110877364734511845056",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "6.64912110877364734511845056",
+        "marked_equity_usd_before_exit_costs": "86.64912110877364734511845056",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "86.64912110877364734511845056",
+        "zero_recovery_net_brl": "33.24560554386823672559225280",
+        "net_brl_if_fully_closed": "33.24560554386823672559225280",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1640699420457783168663132145",
+          "network": "0.14",
+          "embedded": "0.6144528125879032328072535028"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.3333333333333333,
+        "mean_win_usd": "17.68758069787195461218139989",
+        "mean_loss_usd": "-5.519229794549153633531474665",
+        "profit_factor_closed": "1.602359509957384419601118194",
+        "expectancy_usd": "2.21637370292454911503948352",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.09956074808836087202394940808",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 2120.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "10.18480349788573948675108854"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "14.15189830875986247054876191"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-11.03845958909830726706294933"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "17.68758069787195461218139989"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-11.03845958909830726706294933"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-11.03845958909830726706294933",
+        "closed_pnl_without_top3_usd": "-3E-27",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:A:optimistic",
+        "strategy": "A",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "87.09904831631423103691361757",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "7.09904831631423103691361758",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "7.09904831631423103691361758",
+        "marked_equity_usd_before_exit_costs": "87.09904831631423103691361757",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "87.09904831631423103691361757",
+        "zero_recovery_net_brl": "35.49524158157115518456808785",
+        "net_brl_if_fully_closed": "35.49524158157115518456808785",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1378182887070669607047691589",
+          "network": "0.07",
+          "embedded": "0.3154999560733168174698350985"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.3333333333333333,
+        "mean_win_usd": "18.05078572237820853133801832",
+        "mean_loss_usd": "-5.47586870303198874721220037",
+        "profit_factor_closed": "1.648212064725318164112017081",
+        "expectancy_usd": "2.366349438771410345637872527",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.1000409181633513087660301416",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 2120.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "10.56490850702376761390461672"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "14.58492553166867195434701919"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-10.95173740606397749442440074"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "18.05078572237820853133801832"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-10.95173740606397749442440074"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-10.95173740606397749442440074",
+        "closed_pnl_without_top3_usd": "6E-27",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:B:adverse",
+        "strategy": "B",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:B:base",
+        "strategy": "B",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "85.97160406456396360267517832",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "5.97160406456396360267517832",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "5.97160406456396360267517832",
+        "marked_equity_usd_before_exit_costs": "85.97160406456396360267517832",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "85.97160406456396360267517832",
+        "zero_recovery_net_brl": "29.85802032281981801337589160",
+        "net_brl_if_fully_closed": "29.85802032281981801337589160",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1620312749117471722049994566",
+          "network": "0.14",
+          "embedded": "0.6064347097613808455199033669"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.3333333333333333,
+        "mean_win_usd": "17.00750490455632542460338993",
+        "mean_loss_usd": "-5.517950419996180910964105805",
+        "profit_factor_closed": "1.541107078719284385568866840",
+        "expectancy_usd": "1.990534688187987867558392773",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.09750961521951916829395493972",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 2000.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "9.484039003256692426337771291"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "13.49506996586359660094079696"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-11.03590083999236182192821161"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "17.00750490455632542460338993"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-11.03590083999236182192821161"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-11.03590083999236182192821161",
+        "closed_pnl_without_top3_usd": "0E-27",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:B:optimistic",
+        "strategy": "B",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "86.41249364117733984848580712",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "6.41249364117733984848580712",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "6.41249364117733984848580712",
+        "marked_equity_usd_before_exit_costs": "86.41249364117733984848580712",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "86.41249364117733984848580712",
+        "zero_recovery_net_brl": "32.06246820588669924242903560",
+        "net_brl_if_fully_closed": "32.06246820588669924242903560",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1360976002982025717613410625",
+          "network": "0.07",
+          "embedded": "0.3112295624438968625110540441"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.3333333333333333,
+        "mean_win_usd": "17.36163816971940152527244350",
+        "mean_loss_usd": "-5.47457226427103083839331819",
+        "profit_factor_closed": "1.585661612600084872377733552",
+        "expectancy_usd": "2.137497880392446616161935707",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.09798862116279157886300208696",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 2000.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "9.854796256831499255928399630"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "13.91933555406524211782985099"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-10.94914452854206167678663638"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "17.36163816971940152527244350"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-10.94914452854206167678663638"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-10.94914452854206167678663638",
+        "closed_pnl_without_top3_usd": "-4E-27",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:C:adverse",
+        "strategy": "C",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:C:base",
+        "strategy": "C",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "60.92360124925779129092495657",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-11.07639875074220870907504342",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-11.07639875074220870907504342",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "60.92360124925779129092495657",
+        "zero_recovery_net_brl": "-95.38199375371104354537521715",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.08654079502617192954175907017",
+          "network": "0.10",
+          "embedded": "0.3192212497231460870525294306"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.53819937537110435453752171",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.001645985734398529164277411875",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 1260.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-7.502777199986215125430311344"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-3.573621550755993583644732073"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.502777199986215125430311344",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:C:optimistic",
+        "strategy": "C",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "61.00981731784314474365544648",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-10.99018268215685525634455352",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-10.99018268215685525634455352",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "61.00981731784314474365544648",
+        "zero_recovery_net_brl": "-94.95091341078427628172276760",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.07238161953796649380437274008",
+          "network": "0.05",
+          "embedded": "0.1628774693642467501017102604"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.49509134107842762817227676",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.00093477401696919128505724925",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 1260.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-7.485877215354440917433401605"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-3.504305466802414338911151914"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.485877215354440917433401605",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:buyer:adverse",
+        "strategy": "buyer",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:buyer:base",
+        "strategy": "buyer",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "85.01287524150177302685596064",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "5.012875241501773026855960625",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "5.012875241501773026855960625",
+        "marked_equity_usd_before_exit_costs": "85.01287524150177302685596064",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "85.01287524150177302685596064",
+        "zero_recovery_net_brl": "25.06437620750886513427980320",
+        "net_brl_if_fully_closed": "25.06437620750886513427980320",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1591464339195841112948112389",
+          "network": "0.14",
+          "embedded": "0.5958700881370603851575591819"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.3333333333333333,
+        "mean_win_usd": "17.58563325098746867598012911",
+        "mean_loss_usd": "-6.286379004742847824562084245",
+        "profit_factor_closed": "1.398709275858148083625158257",
+        "expectancy_usd": "1.670958413833924342285320208",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.1614543953444424507109860061",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 1480.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "12.49316474258277340602364876"
+            },
+            {
+              "removed": "SYNTHETIC_2",
+              "closed_pnl_remaining_usd": "10.10534374990646829681244098"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-12.57275800948569564912416848"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-27"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "17.58563325098746867598012912"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-12.57275800948569564912416848"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-27"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-12.57275800948569564912416848",
+        "closed_pnl_without_top3_usd": "-2E-27",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:buyer:optimistic",
+        "strategy": "buyer",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "85.44097471056330616195379642",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "5.440974710563306161953796423",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "5.440974710563306161953796423",
+        "marked_equity_usd_before_exit_costs": "85.44097471056330616195379642",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "85.44097471056330616195379642",
+        "zero_recovery_net_brl": "27.20487355281653080976898210",
+        "net_brl_if_fully_closed": "27.20487355281653080976898210",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1336627157603227880858222387",
+          "network": "0.07",
+          "embedded": "0.3059751339294747244572233612"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.3333333333333333,
+        "mean_win_usd": "17.94747839744509338041289732",
+        "mean_loss_usd": "-6.253251843440893609229550445",
+        "profit_factor_closed": "1.435051621683077254128732735",
+        "expectancy_usd": "1.813658236854435387317932141",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.1619056082669762679537096538",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 1480.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "12.90406423142035156562723921"
+            },
+            {
+              "removed": "SYNTHETIC_2",
+              "closed_pnl_remaining_usd": "10.48438887658804797673945453"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-12.50650368688178721845910090"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-27"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "17.94747839744509338041289731"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-12.50650368688178721845910090"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-27"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-12.50650368688178721845910090",
+        "closed_pnl_without_top3_usd": "-1E-27",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:cash:adverse",
+        "strategy": "cash",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0",
+        "net_brl_if_fully_closed": "0",
+        "infrastructure_brl_once": "0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:cash:base",
+        "strategy": "cash",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0",
+        "net_brl_if_fully_closed": "0",
+        "infrastructure_brl_once": "0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:cash:optimistic",
+        "strategy": "cash",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0",
+        "net_brl_if_fully_closed": "0",
+        "infrastructure_brl_once": "0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:first:adverse",
+        "strategy": "first",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:first:base",
+        "strategy": "first",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "60.94085170958827486010174338",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-11.05914829041172513989825662",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-11.05914829041172513989825662",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "60.94085170958827486010174338",
+        "zero_recovery_net_brl": "-95.29574145205862569949128310",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.08659270212847027528652372454",
+          "network": "0.10",
+          "embedded": "0.3194203056453692010889970207"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.52957414520586256994912831",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.001645985734398529164277411875",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 1320.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-7.523465901299632998265618636"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-3.535682389112092141632637980"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.523465901299632998265618636",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:first:optimistic",
+        "strategy": "first",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "61.02729789640256115366495699",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-10.97270210359743884633504300",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-10.97270210359743884633504300",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "61.02729789640256115366495699",
+        "zero_recovery_net_brl": "-94.86351051798719423167521505",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.07242543051179961763898304213",
+          "network": "0.05",
+          "embedded": "0.1629810584410644106427250455"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.48635105179871942316752150",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.00093477401696919128505724925",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 1320.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-7.506841912887902269344043864"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-3.465860190709536576990999134"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.506841912887902269344043864",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:main:adverse",
+        "strategy": "main",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "exact_size_quote_required_conditional",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:main:base",
+        "strategy": "main",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "exact_size_quote_required_conditional",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:main:optimistic",
+        "strategy": "main",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "exact_size_quote_required_conditional",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:main_random:adverse",
+        "strategy": "main_random",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "exact_size_quote_required_conditional",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:main_random:base",
+        "strategy": "main_random",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "exact_size_quote_required_conditional",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:main_random:optimistic",
+        "strategy": "main_random",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "exact_size_quote_required_conditional",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:matched:adverse",
+        "strategy": "matched",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:matched:base",
+        "strategy": "matched",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "59.46076130754495065959876962",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-12.53923869245504934040123038",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-12.53923869245504934040123038",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "59.46076130754495065959876962",
+        "zero_recovery_net_brl": "-102.6961934622752467020061519",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.08213907002603299083165018263",
+          "network": "0.10",
+          "embedded": "0.3026736774901531531315305876"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-6.26961934622752467020061519",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.001645985734398529164277411875",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 420.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-5.058949191374048961233542247"
+            },
+            {
+              "removed": "SYNTHETIC_2",
+              "closed_pnl_remaining_usd": "-7.480289501081000379167688132"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.480289501081000379167688132",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:matched:optimistic",
+        "strategy": "matched",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "59.52746278668890084308701590",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-12.47253721331109915691298409",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-12.47253721331109915691298409",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "59.52746278668890084308701590",
+        "zero_recovery_net_brl": "-102.3626860665554957845649205",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.06866644527442202287562980631",
+          "network": "0.05",
+          "embedded": "0.1544284470519630963199600675"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-6.236268606655549578456492045",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.00093477401696919128505724925",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 420.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-5.009447692454053753239541304"
+            },
+            {
+              "removed": "SYNTHETIC_2",
+              "closed_pnl_remaining_usd": "-7.463089520857045403673442783"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.463089520857045403673442783",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:momentum:adverse",
+        "strategy": "momentum",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:momentum:base",
+        "strategy": "momentum",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "60.88212096220891092580333490",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-11.11787903779108907419666511",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-11.11787903779108907419666511",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "60.88212096220891092580333490",
+        "zero_recovery_net_brl": "-95.58939518895544537098332550",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.08641597971910408491250644725",
+          "network": "0.10",
+          "embedded": "0.3187472479064094830274228819"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.558939518895544537098332555",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.001645985734398529164277411875",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 1350.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-7.480289501081000379167688137"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-3.637589536710088695028976977"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.480289501081000379167688137",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:momentum:optimistic",
+        "strategy": "momentum",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "60.96778368305725463525609546",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "-11.03221631694274536474390454",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-11.03221631694274536474390454",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "60.96778368305725463525609546",
+        "zero_recovery_net_brl": "-95.16108158471372682371952270",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.07227627208236275919685556961",
+          "network": "0.05",
+          "embedded": "0.1626330675094552439340490177"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.51610815847137268237195227",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.00093477401696919128505724925",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 1350.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-7.463089520857045403673442789"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-3.569126796085699961070461754"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 2,
+        "closed_pnl_without_best_usd": "-7.463089520857045403673442789",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:random:adverse",
+        "strategy": "random",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:random:base",
+        "strategy": "random",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "63.81429114921109033310428462",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "-16.18570885078890966689571538",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-16.18570885078890966689571538",
+        "marked_equity_usd_before_exit_costs": "63.81429114921109033310428462",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "63.81429114921109033310428462",
+        "zero_recovery_net_brl": "-80.92854425394454833447857690",
+        "net_brl_if_fully_closed": "-80.92854425394454833447857690",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.09529913976023401291842705826",
+          "network": "0.12",
+          "embedded": "0.3518668138051872783032764352"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.395236283596303222298571793",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": "-5.395236283596303222298571793",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.2191119964985451405596210377",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 1000.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-12.54811931407882097186673841"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-8.662242949489276668630096740"
+            },
+            {
+              "removed": "SYNTHETIC_2",
+              "closed_pnl_remaining_usd": "-11.16105543800972169329459561"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 3,
+        "closed_pnl_without_best_usd": "-12.54811931407882097186673841",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:random:optimistic",
+        "strategy": "random",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "63.94933689182923854817515007",
+        "reserved_usd": "0",
+        "closed": 3,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "-16.05066310817076145182484992",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "-16.05066310817076145182484992",
+        "marked_equity_usd_before_exit_costs": "63.94933689182923854817515007",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "63.94933689182923854817515007",
+        "zero_recovery_net_brl": "-80.25331554085380725912424965",
+        "net_brl_if_fully_closed": "-80.25331554085380725912424965",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.07977389917201685421670282428",
+          "network": "0.06",
+          "embedded": "0.1794064302602922761005766550"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.0,
+        "mean_win_usd": null,
+        "mean_loss_usd": "-5.35022103605692048394161664",
+        "profit_factor_closed": "0E+26",
+        "expectancy_usd": "-5.35022103605692048394161664",
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.2192363895885788224152038577",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": 1000.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "-12.48153631208506149075438817"
+            },
+            {
+              "removed": "SYNTHETIC_1",
+              "closed_pnl_remaining_usd": "-8.543821195282859182480806054"
+            },
+            {
+              "removed": "SYNTHETIC_2",
+              "closed_pnl_remaining_usd": "-11.07596870897360223041450561"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 3,
+        "closed_pnl_without_best_usd": "-12.48153631208506149075438817",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:volume:adverse",
+        "strategy": "volume",
+        "scenario": "adverse",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "80",
+        "reserved_usd": "0",
+        "closed": 0,
+        "open_or_inconclusive": 0,
+        "inconclusive": 0,
+        "closed_pnl_usd": "0",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "0",
+        "marked_equity_usd_before_exit_costs": "80",
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "80",
+        "zero_recovery_net_brl": "0.0",
+        "net_brl_if_fully_closed": "0.0",
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0",
+          "network": "0",
+          "embedded": "0"
+        },
+        "orders": {},
+        "win_rate_closed": null,
+        "mean_win_usd": null,
+        "mean_loss_usd": null,
+        "profit_factor_closed": null,
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0",
+        "drawdown_missing_marks": 0,
+        "drawdown_zero_recovery_stress": "0",
+        "exposure_cost_basis_usd": "0",
+        "mean_holding_seconds_closed": null,
+        "closed_pnl_leave_group_out": {
+          "mint": [],
+          "utc_day": [],
+          "utc_hour": [],
+          "entry_liquidity_band": []
+        },
+        "maximum_closed_loss_streak": 0,
+        "closed_pnl_without_best_usd": "0",
+        "closed_pnl_without_top3_usd": "0",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:volume:base",
+        "strategy": "volume",
+        "scenario": "base",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "85.90905893472251997574218343",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "13.90905893472251997574218343",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "13.90905893472251997574218343",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "85.90905893472251997574218343",
+        "zero_recovery_net_brl": "29.54529467361259987871091715",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1617828943806294882724026816",
+          "network": "0.12",
+          "embedded": "0.6057821032070045514005840303"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.5,
+        "mean_win_usd": "17.48268048547851355938691551",
+        "mean_loss_usd": "-3.573621550755993583644732076",
+        "profit_factor_closed": "4.892146590558835791292724726",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.002807468935468972265324663125",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 2880.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "17.48268048547851355938691551"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-3.57362155075599358364473208"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "17.48268048547851355938691551"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-3.57362155075599358364473208"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 1,
+        "closed_pnl_without_best_usd": "-3.57362155075599358364473208",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      },
+      {
+        "wallet": "development:volume:optimistic",
+        "strategy": "volume",
+        "scenario": "optimistic",
+        "period": "development",
+        "execution_class": "conditional_unverified",
+        "capital_initial_usd": "80",
+        "capital_brl": "400",
+        "cash_usd": "86.10655278419219312951891667",
+        "reserved_usd": "0",
+        "closed": 2,
+        "open_or_inconclusive": 1,
+        "inconclusive": 1,
+        "closed_pnl_usd": "14.10655278419219312951891666",
+        "partial_realized_usd": "0",
+        "onchain_failure_stress_cost_usd": "0",
+        "realized_total_usd": "14.10655278419219312951891666",
+        "marked_equity_usd_before_exit_costs": null,
+        "marked_age_seconds": 93570877.78198409,
+        "zero_recovery_equity_usd": "86.10655278419219312951891667",
+        "zero_recovery_net_brl": "30.53276392096096564759458335",
+        "net_brl_if_fully_closed": null,
+        "infrastructure_brl_once": "0.0",
+        "cost_assumptions_confirmed": false,
+        "initial_fx_equivalence_only": true,
+        "costs_usd": {
+          "fee": "0.1353057685764352867513989812",
+          "network": "0.06",
+          "embedded": "0.3096698247337928474711764815"
+        },
+        "orders": {
+          "filled": 3
+        },
+        "win_rate_closed": 0.5,
+        "mean_win_usd": "17.61085825099460746843006858",
+        "mean_loss_usd": "-3.504305466802414338911151915",
+        "profit_factor_closed": "5.025491760872104526582511709",
+        "expectancy_usd": null,
+        "expectancy_denominator": "Todas as ordens: preenchidas, frustradas e expiradas; sem inferência enquanto houver posições ou ordens pendentes.",
+        "expectancy_note": "Indefinida com posições abertas/inconclusivas; inclui falhas no resultado global.",
+        "drawdown_marked_observed": "0.0013815419946131076503364555",
+        "drawdown_missing_marks": 77,
+        "drawdown_zero_recovery_stress": "0.30",
+        "exposure_cost_basis_usd": "8.00",
+        "mean_holding_seconds_closed": 2880.0,
+        "closed_pnl_leave_group_out": {
+          "mint": [
+            {
+              "removed": "SYNTHETIC_0",
+              "closed_pnl_remaining_usd": "17.61085825099460746843006858"
+            },
+            {
+              "removed": "SYNTHETIC_5",
+              "closed_pnl_remaining_usd": "-3.50430546680241433891115192"
+            }
+          ],
+          "utc_day": [
+            {
+              "removed": "2023-11-14",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ],
+          "utc_hour": [
+            {
+              "removed": "22",
+              "closed_pnl_remaining_usd": "17.61085825099460746843006858"
+            },
+            {
+              "removed": "23",
+              "closed_pnl_remaining_usd": "-3.50430546680241433891115192"
+            }
+          ],
+          "entry_liquidity_band": [
+            {
+              "removed": ">=100k",
+              "closed_pnl_remaining_usd": "0E-26"
+            }
+          ]
+        },
+        "maximum_closed_loss_streak": 1,
+        "closed_pnl_without_best_usd": "-3.50430546680241433891115192",
+        "closed_pnl_without_top3_usd": "0E-26",
+        "conclusion": "Evidência insuficiente. Resultado sintético/condicional ou amostra ainda não validada."
+      }
+    ]
+  }
+}

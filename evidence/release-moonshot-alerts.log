@@ -1,0 +1,398 @@
+{
+  "synthetic": true,
+  "data_mode": "synthetic",
+  "result": [
+    {
+      "id": 49,
+      "decision": 493,
+      "mint": "SYNTHETIC_2",
+      "model": "first",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 48,
+      "decision": 484,
+      "mint": "SYNTHETIC_0",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 47,
+      "decision": 483,
+      "mint": "SYNTHETIC_6",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 46,
+      "decision": 472,
+      "mint": "SYNTHETIC_2",
+      "model": "volume",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 45,
+      "decision": 467,
+      "mint": "SYNTHETIC_4",
+      "model": "random",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 44,
+      "decision": 451,
+      "mint": "SYNTHETIC_2",
+      "model": "B",
+      "period": "development",
+      "at": 1700000422.0
+    },
+    {
+      "id": 43,
+      "decision": 441,
+      "mint": "SYNTHETIC_6",
+      "model": "matched",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 42,
+      "decision": 434,
+      "mint": "SYNTHETIC_6",
+      "model": "first",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 41,
+      "decision": 425,
+      "mint": "SYNTHETIC_4",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 40,
+      "decision": 419,
+      "mint": "SYNTHETIC_5",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 39,
+      "decision": 408,
+      "mint": "SYNTHETIC_1",
+      "model": "volume",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 38,
+      "decision": 405,
+      "mint": "SYNTHETIC_5",
+      "model": "random",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 37,
+      "decision": 395,
+      "mint": "SYNTHETIC_2",
+      "model": "C",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 36,
+      "decision": 391,
+      "mint": "SYNTHETIC_5",
+      "model": "B",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 35,
+      "decision": 383,
+      "mint": "SYNTHETIC_4",
+      "model": "A",
+      "period": "development",
+      "at": 1700000362.0
+    },
+    {
+      "id": 34,
+      "decision": 372,
+      "mint": "SYNTHETIC_0",
+      "model": "matched",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 33,
+      "decision": 370,
+      "mint": "SYNTHETIC_5",
+      "model": "first",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 32,
+      "decision": 364,
+      "mint": "SYNTHETIC_6",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 31,
+      "decision": 353,
+      "mint": "SYNTHETIC_2",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 30,
+      "decision": 350,
+      "mint": "SYNTHETIC_6",
+      "model": "volume",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 29,
+      "decision": 343,
+      "mint": "SYNTHETIC_6",
+      "model": "random",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 28,
+      "decision": 335,
+      "mint": "SYNTHETIC_5",
+      "model": "C",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 27,
+      "decision": 323,
+      "mint": "SYNTHETIC_0",
+      "model": "B",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 26,
+      "decision": 318,
+      "mint": "SYNTHETIC_2",
+      "model": "A",
+      "period": "development",
+      "at": 1700000302.0
+    },
+    {
+      "id": 25,
+      "decision": 313,
+      "mint": "SYNTHETIC_4",
+      "model": "matched",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 24,
+      "decision": 303,
+      "mint": "SYNTHETIC_1",
+      "model": "first",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 23,
+      "decision": 297,
+      "mint": "SYNTHETIC_2",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 22,
+      "decision": 292,
+      "mint": "SYNTHETIC_4",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 21,
+      "decision": 281,
+      "mint": "SYNTHETIC_0",
+      "model": "volume",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 20,
+      "decision": 275,
+      "mint": "SYNTHETIC_1",
+      "model": "random",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 19,
+      "decision": 267,
+      "mint": "SYNTHETIC_0",
+      "model": "C",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 18,
+      "decision": 261,
+      "mint": "SYNTHETIC_1",
+      "model": "B",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 17,
+      "decision": 258,
+      "mint": "SYNTHETIC_5",
+      "model": "A",
+      "period": "development",
+      "at": 1700000242.0
+    },
+    {
+      "id": 16,
+      "decision": 248,
+      "mint": "SYNTHETIC_2",
+      "model": "matched",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 15,
+      "decision": 243,
+      "mint": "SYNTHETIC_4",
+      "model": "first",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 14,
+      "decision": 237,
+      "mint": "SYNTHETIC_5",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 13,
+      "decision": 225,
+      "mint": "SYNTHETIC_0",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 12,
+      "decision": 222,
+      "mint": "SYNTHETIC_4",
+      "model": "volume",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 11,
+      "decision": 211,
+      "mint": "SYNTHETIC_0",
+      "model": "random",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 10,
+      "decision": 205,
+      "mint": "SYNTHETIC_1",
+      "model": "C",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 9,
+      "decision": 191,
+      "mint": "SYNTHETIC_1",
+      "model": "A",
+      "period": "development",
+      "at": 1700000182.0
+    },
+    {
+      "id": 8,
+      "decision": 184,
+      "mint": "SYNTHETIC_1",
+      "model": "matched",
+      "period": "development",
+      "at": 1700000122.0
+    },
+    {
+      "id": 7,
+      "decision": 176,
+      "mint": "SYNTHETIC_0",
+      "model": "first",
+      "period": "development",
+      "at": 1700000122.0
+    },
+    {
+      "id": 6,
+      "decision": 170,
+      "mint": "SYNTHETIC_1",
+      "model": "buyer",
+      "period": "development",
+      "at": 1700000122.0
+    },
+    {
+      "id": 5,
+      "decision": 163,
+      "mint": "SYNTHETIC_1",
+      "model": "momentum",
+      "period": "development",
+      "at": 1700000122.0
+    },
+    {
+      "id": 4,
+      "decision": 160,
+      "mint": "SYNTHETIC_5",
+      "model": "volume",
+      "period": "development",
+      "at": 1700000122.0
+    },
+    {
+      "id": 3,
+      "decision": 150,
+      "mint": "SYNTHETIC_2",
+      "model": "random",
+      "period": "development",
+      "at": 1700000122.0
+    },
+    {
+      "id": 2,
+      "decision": 145,
+      "mint": "SYNTHETIC_4",
+      "model": "C",
+      "period": "development",
+      "at": 1700000122.0
+    },
+    {
+      "id": 1,
+      "decision": 127,
+      "mint": "SYNTHETIC_0",
+      "model": "A",
+      "period": "development",
+      "at": 1700000122.0
+    }
+  ]
+}

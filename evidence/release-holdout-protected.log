@@ -1,0 +1,12 @@
+{
+  "period": "test",
+  "protocol": "153331c1f11261eb3b2f72797ccaa41445359fa2dda305cca2bbe4a6a4795f52",
+  "synthetic": true,
+  "coverage": 0.0,
+  "metric": "net_portfolio_brl_with_recurring_costs",
+  "primary_family": 9,
+  "comparisons": [],
+  "conclusion": "Evidência insuficiente para vantagem líquida sustentável/executável; não promover automaticamente.",
+  "stopping_rule": "Avaliar uma vez ao fim fixo da validação e uma vez ao fim fixo do teste; repetições ficam registradas.",
+  "benchmark_SOL": "unavailable: série comparável não integrada"
+}

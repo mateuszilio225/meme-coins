@@ -1,0 +1,13 @@
+usage: __main__.py [-h] [--config CONFIG] [--version]
+                   {init,run,watch,health,audit,moonshot,moonshot-alerts,moonshot-trades,moonshot-profitability,moonshot-forensics,moonshot-missed,moonshot-quality,moonshot-compare,evaluate,demo,fx,economics,backup,ablate}
+                   ...
+
+Moonshot Profit Research — somente dados e simulação; nunca envia transações.
+
+positional arguments:
+  {init,run,watch,health,audit,moonshot,moonshot-alerts,moonshot-trades,moonshot-profitability,moonshot-forensics,moonshot-missed,moonshot-quality,moonshot-compare,evaluate,demo,fx,economics,backup,ablate}
+
+options:
+  -h, --help            show this help message and exit
+  --config CONFIG
+  --version             show program's version number and exit

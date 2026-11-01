@@ -1,0 +1,229 @@
+{
+  "release": "0.1.0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "linux",
+  "clean_extraction_test_exit": 0,
+  "test_summary": [
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 92 tests in 2.975s",
+    "",
+    "OK"
+  ],
+  "cli_commands": [
+    {
+      "name": "version",
+      "arguments": [
+        "--version"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "demo",
+      "arguments": [
+        "demo",
+        "--output",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.sqlite"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "health",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "health"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "audit",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "audit"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "watch",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "watch"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-alerts",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-alerts"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-trades",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-trades"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-profitability",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-profitability"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-forensics",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-forensics"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-missed",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-missed"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-quality",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-quality"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-compare",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-compare"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "moonshot-scores",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-scores"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "economics",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "economics"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "expired-demo-test-evaluation",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "evaluate",
+        "--period",
+        "test"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "synthetic-real-collector-protected",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "run",
+        "--once"
+      ],
+      "exit_code": 1,
+      "expected": 1
+    },
+    {
+      "name": "ablation",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "ablate",
+        "--output",
+        "/tmp/moonshot release with spaces umrijn6d/ablations clean"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "backup",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "backup",
+        "--output",
+        "/tmp/moonshot release with spaces umrijn6d/backup.sqlite"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "readonly-repeat",
+      "arguments": [
+        "--config",
+        "/tmp/moonshot release with spaces umrijn6d/offline demo with spaces.toml",
+        "moonshot-profitability"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "installed-package-import",
+      "exit_code": 0
+    }
+  ],
+  "pip_target_install_exit": 0,
+  "validated_windows": false,
+  "validated_live_market_collection": false,
+  "economic_edge_proven": false,
+  "note": "Arquivos da demo só em diretório temporário; ZIP não inclui banco sintético disfarçado de real."
+}

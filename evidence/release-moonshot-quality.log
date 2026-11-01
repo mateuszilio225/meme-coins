@@ -1,0 +1,39 @@
+{
+  "synthetic": true,
+  "data_mode": "synthetic",
+  "result": {
+    "synthetic": true,
+    "period": "development",
+    "observations": 595,
+    "fields": {
+      "price_present": 518,
+      "liquidity_present": 433,
+      "volume_present": 595,
+      "liquidity_missing": 85,
+      "price_missing": 77,
+      "liquidity_zero": 77
+    },
+    "provider_timestamps": 0,
+    "largest_gap_seconds": 60.0,
+    "decision_reasons": {
+      "history": 126,
+      "score": 1257,
+      "liquidity": 1458,
+      "continuation_history": 28,
+      "volatility_unknown": 84,
+      "liquidity_retention_unknown": 162,
+      "matched_control_unavailable": 560,
+      "ranking": 116,
+      "already_alerted": 3899,
+      "price_history": 693,
+      "price": 693,
+      "buy_fraction_unknown": 77,
+      "drawdown_unknown": 77,
+      "ret_unknown": 77,
+      "drawdown": 151,
+      "volatility": 30
+    },
+    "api_lifetime_counts": [],
+    "coverage_note": "Universo parcial de perfis; ausência de dados não comprova perda total ou fraude."
+  }
+}

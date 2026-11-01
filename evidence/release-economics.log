@@ -1,0 +1,430 @@
+{
+  "fx": "5",
+  "source": "SYNTHETIC fixed 5 BRL/USD",
+  "table": [
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 10000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.161108685715519915051668604942446715852",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 25000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.158788259410038560323123829335827147430",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 100000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.157630906143833186266143909568352796306",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 10000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.050022590899696976904960474017999586600",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 25000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.049512291320860004739832654024480223732",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 100000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.049257285408178475641002546181788778072",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 10000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.027168167946381234885096795384567896766",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 25000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.026671840410764016655032906958949587863",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 10,
+      "position_usd": "2",
+      "liquidity_usd": 100000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.026423813780651822742308753807776433933",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 10000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.130485331958737511895072367259841054270",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 25000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.126000098627296812355427512925610530471",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 100000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.123768377070629842019086236224290877648",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 10000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.040412688805946180606835523986161050251",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 25000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.039403928563637356028802840368297937795",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 100000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.038900114316921816579655318967380764827",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 10000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.022866888963673058865024017592533052742",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 25000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.021879583548052220699476918481501495642",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 20,
+      "position_usd": "4",
+      "liquidity_usd": 100000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.021386475161070727303359083529058967521",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 10000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.122928191543910190254175981493227640301",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 25000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.116259785676736232961111328039609699331",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 100000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.112949799229635065906965210464710740168",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 10000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.037787211064533753365077171603677371687",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 25000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.036279071871665294945567092652372945230",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 100000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.035526269557722426897479006181673499246",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 10000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.021984977776067791937552970946414420811",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 25000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.020505840140917128394523442295817494286",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 30,
+      "position_usd": "6",
+      "liquidity_usd": 100000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.019767494047707375439272659320078076478",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 10000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.121021728964492963629413296530327433908",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 25000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.112153128672449445230632872482153293782",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 100000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.107761750541514909689491244312114646248",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 10000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.036895489611271033411937626058793936687",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 25000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.034887088695806524209435503277526500002",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 100000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.033885137549114311287414470222914421027",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 10000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.021955453914442609373132553812553889458",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 25000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.019983636349670874405350881983874710130",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 40,
+      "position_usd": "8",
+      "liquidity_usd": 100000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.018999901075938565954036683267167608479",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 10000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.127515408081258755027976183376371123386",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 25000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.109674955208348081885566676950920411818",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 100000,
+      "scenario": "adverse",
+      "required_price_increase_fraction": "0.100928353470860830203928556286254430137",
+      "passes_cost_gate": false,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 10000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.037654551390192603522933569185495035746",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 25000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.033636314454908291052842487680955247766",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 100000,
+      "scenario": "base",
+      "required_price_increase_fraction": "0.031636204041982279245250515064517362984",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 10000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.023971925001751153993717015564371174192",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 25000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.020020879775388934692272879029744825158",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    },
+    {
+      "position_brl": 80,
+      "position_usd": "16",
+      "liquidity_usd": 100000,
+      "scenario": "optimistic",
+      "required_price_increase_fraction": "0.018054081028933349049289386290841327650",
+      "passes_cost_gate": true,
+      "assumptions": "Uma compra + venda integral; parcial adiciona fills/custos. Sem probabilidade de lucro."
+    }
+  ],
+  "monthly_cost_sensitivity_brl": [
+    {
+      "cost": 0,
+      "fraction_of_capital": "0"
+    },
+    {
+      "cost": 20,
+      "fraction_of_capital": "0.05"
+    },
+    {
+      "cost": 50,
+      "fraction_of_capital": "0.125"
+    },
+    {
+      "cost": 100,
+      "fraction_of_capital": "0.25"
+    }
+  ],
+  "note": "Sem retorno esperado verificado não se pode afirmar viabilidade. Maior frequência não implica maior lucro."
+}

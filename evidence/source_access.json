@@ -1,0 +1,42 @@
+{
+  "accessed_utc": "2026-11-01T22:36:59.524471+00:00",
+  "records": [
+    {
+      "source": "solana-fees",
+      "url": "https://raw.githubusercontent.com/solana-foundation/solana-com/main/apps/web/content/docs/core/fees.mdx",
+      "error_type": "HTTPError",
+      "http_code": 404
+    },
+    {
+      "source": "dex-reference",
+      "url": "https://api.dexscreener.com/token-profiles/latest/v1",
+      "error_type": "URLError",
+      "http_code": null
+    },
+    {
+      "source": "jupiter-docs",
+      "url": "https://developers.jup.ag/docs/swap/get-quote",
+      "error_type": "URLError",
+      "http_code": null
+    },
+    {
+      "source": "overfitting",
+      "url": "https://arxiv.org/abs/1407.6158",
+      "error_type": "URLError",
+      "http_code": null
+    }
+  ],
+  "consulted_primary_source": {
+    "repository": "https://github.com/solana-foundation/solana-com",
+    "commit": "b83505d379f083d55560e696765d7d84429e18fa",
+    "files": [
+      "solana-tokens-extensions-transfer-hook.mdx.txt",
+      "solana-rpc-http-getmultipleaccounts.mdx.txt",
+      "solana-rpc-websocket-logssubscribe.mdx.txt",
+      "solana-tokens-extensions-transfer-fees.mdx.txt",
+      "solana-core-fees-fee-structure.mdx.txt",
+      "solana-core-fees-index.mdx.txt"
+    ],
+    "access_method": "HTTPS Git proxy; git show of official documentation"
+  }
+}
